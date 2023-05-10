@@ -1,0 +1,90 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+body {
+    background-color: hsl(0, 0%, 86%);
+}
+
+.container {
+    background-color: #FFF;
+    border-radius: 20px;
+    padding: 50px 40px;
+    max-width: 700px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+#date label,
+#date label::placeholder {
+    color: hsl(0, 1%, 44%);
+}
+
+#date input {
+    font-size: 20px;
+}
+
+#date input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: 1px solid hsl(259, 100%, 65%);
+}
+
+.container hr {
+    color: hsl(0, 1%, 44%);
+    width: 85%;
+}
+
+#calc {
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+
+.calculate {
+    background-color: hsl(259, 100%, 65%);
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    position: absolute;
+    top: 130px
+}
+
+.calculate:hover {
+    cursor: pointer;
+    background-color: #000;
+}
+
+.calculate img {
+    width: 35px;
+}
+
+
+#results p {
+    font-size: 75px;
+}
+
+#results #years,
+#results #months,
+#results #days {
+    color: hsl(259, 100%, 65%);
+}
+
+.error {
+    border-color: hsl(0, 100%, 67%);
+}
+
+.errorLabel,
+#date p{
+    color: hsl(0, 100%, 67%);
+}
+
+#date p {
+    display: none;
+    font-size: 12px;
+    margin: 0;
+    margin-bottom: -18px;
+}
+
+
